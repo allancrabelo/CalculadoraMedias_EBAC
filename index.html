@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Médias</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="icon" href="./assets/img/icons8-configurações-24.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="left-box">
+        <div class="circle-user">
+            <img src="./assets/img/icons8-configurações-24.png" alt="setting icon">
+        </div>
+    </div>
+    <div class="central-menu">
+        <h1 id="title">Education is your <br>future</h1>
+        <div class="container">
+            <header>Calculadora de Médias</header>
+            <form id="form-atividade">
+                <input class="name" type="text" id="nome-atividade" required  placeholder="Nome da Atividade">
+                <input class="number" type="number" id="nota-atividade" required placeholder="Nota da Atividade" min="0" max="10">
+                <button type="submit">+</button>
+            </form>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>
+                            Nome da Atividade
+                        </th>
+                        <th>
+                            Nota da Atividade
+                        </th>
+                        <th>
+                            Aprovado
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Media Final</td>
+                        <td id="media-final-valor">-</td>
+                        <td id="media-final-resultado"><span class="resultado aprovado">-</span></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <div class="right-box">
+        <div class="circle-user2">
+            <img src="./assets/img/icons8-usuário-48.png" alt="icone de usuario">
+        </div>
+        <div class="arroba">
+            <h3>@userTester</h3>
+        </div>
+        <div class="navbar"></div>
+        <div class="time-study"></div>
+        <h6>My courses</h6>
+        <div class="course"></div>
+    </div>
+    <script src="./main."></script> 
+</body>
+</html>
